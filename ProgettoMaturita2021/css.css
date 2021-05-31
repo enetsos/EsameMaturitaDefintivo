@@ -1,0 +1,230 @@
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.menu {
+    color: red;
+    height: auto;
+    z-index: 1000;
+    background-color: white;
+    box-shadow: 0px 2px 5px lightgray;
+}
+
+
+/* mouse over link */
+
+a:hover {
+    color: blue;
+}
+
+
+/* unvisited link */
+
+a:link {
+    color: red;
+}
+
+
+/* visited link */
+
+a:visited {
+    color: red;
+}
+
+.topTitle {
+    padding-top: 100px;
+    z-index: 9;
+    color: red;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+}
+
+.topSubTitle {
+    font-size: 28px;
+}
+
+#bootomDiv {
+    background-color: #323437;
+    color: white;
+    margin-top: auto;
+}
+
+#bottomLine {
+    border: 1px solid white;
+}
+
+#imgLogo {
+    width: 75%;
+    height: auto;
+}
+
+.serviceLink:hover {
+    text-decoration: none;
+    background-color: #ccccb3;
+    border: 1px solid black;
+}
+
+.descriptionTitle {
+    color: black;
+    opacity: 0.6;
+}
+
+.descriptionText {
+    color: grey;
+    opacity: 0.8;
+}
+
+.btnContact {
+    color: white;
+    background-color: red;
+    border-radius: 16px;
+}
+
+.btnLogin {
+    color: red;
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 0%;
+    right: 5px;
+}
+
+.btnLogin:hover {
+    background-color: red;
+    color: white;
+}
+
+#btnSignUp {
+    color: red;
+    background-color: black;
+    border-radius: 0%;
+}
+
+#btnSignUp:hover {
+    background-color: red;
+    color: white;
+}
+
+#dropdownMenu {
+    color: black;
+    background-color: white;
+    border: 0px;
+}
+
+.dropdown-toggle {
+    background-color: transparent;
+}
+
+.LoginText {
+    color: red;
+}
+
+.Logininput {
+    border-radius: 4%;
+    size: 30px;
+}
+
+.Logininput:hover {
+    border: 2px solid red;
+    border-radius: 4%;
+}
+
+.avatarImage {
+    border-radius: 50%;
+}
+
+.personalAreaText {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#map {
+    height: 400px;
+}
+
+#accountSetting:hover {
+    background-color: #ccccb3;
+}
+
+.optionRadio {
+    visibility: hidden;
+}
+
+.textRadio {
+    cursor: pointer;
+}
+
+.textRadio:hover {
+    text-decoration: underline;
+}
+
+.optionRadio:checked+textRadio {
+    background-color: #ccccb3;
+}
+
+#chatBox {
+    position: relative;
+    min-width: auto;
+    min-height: 250px;
+    max-height: 250px;
+    border: 2px solid red;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#autoPrint {
+    position: relative;
+    min-width: auto;
+    min-height: 250px;
+    max-height: 250px;
+    border: 2px solid red;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.corsaPrint {
+    position: relative;
+    min-width: auto;
+    min-height: 250px;
+    max-height: 250px;
+    border: 2px solid red;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.chatUtente {
+    cursor: pointer;
+    border: 1px dashed red;
+}
+
+.mittenteChat .form-check-label {
+    color: #cc0000;
+}
+
+.destinatarioChat .form-check-label {
+    color: #00cc44;
+}
+
+#getCorsaHrBox {
+    border: 1px dashed red;
+}
+
+
+/*remove arrow to dropdown menu*/
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+@media (min-width: 768px) {
+    .menu {
+        position: fixed;
+    }
+}

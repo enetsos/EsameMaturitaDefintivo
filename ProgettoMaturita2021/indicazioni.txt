@@ -1,0 +1,12 @@
+il progetto d'esame è una pagina web per un azienda di trasporti
+la pagina dovrà contenere
+    -HOME
+    -CHI SIAMO
+    -CONTATTI
+    -MACCHINE
+nella sezione contatti ci sarà presente un form con cui l'utente potrà comunicare con l'azienda per la richista di un servizio o ncc o noleggio
+il tutto è "abbellito" con Bootstrap
+possibilità di cambiare lingua 
+
+https://www.drivetransporterswiss.com/
+multilingua: https://www.neting.it/blog/hreflang-siti-web-multilingua.html, https://www.byte-post.com/creare-un-sito-multilingua-con-php/
