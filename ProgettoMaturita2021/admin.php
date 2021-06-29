@@ -119,6 +119,7 @@
                     <p class="descriptionText col-md-4" id="addCarResult"></p>
                 </div>
             </form>
+            
             <div class="answer col-md-12">
                 <div id="autoPrint"></div>
             </div>
@@ -213,10 +214,10 @@
                     </div>
                     <div class="col-md-4 map" id="map"></div>
                 </div>
-            </form>
+            </form><!--
             <div class="answer col-md-12">
                 <div class="corsaPrint"></div>
-            </div>
+            </div>-->
 
         </div>
 
